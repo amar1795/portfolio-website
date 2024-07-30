@@ -5,7 +5,7 @@ import "./globals.css";
 import Head from "next/head";
 import { cn } from "@/lib/utils";
 
-const inter = Press_Start_2P({ weight: "400", subsets:["latin-ext" ] })
+// const inter = Press_Start_2P({ weight: "400", subsets:["latin-ext" ] })
 
 const fontSans=Press_Start_2P({
   weight: "400",
@@ -30,7 +30,7 @@ export default function RootLayout({
     
       <body  className={cn(
             "min-h-screen bg-background  antialiased ",
-            fontSans
+            fontSans.className
           )}>{children}</body>
     </html>
   );

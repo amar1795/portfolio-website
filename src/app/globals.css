@@ -64,6 +64,7 @@ a:hover {
   height: 100vh;
   overflow: hidden;
   
+  
 }
 
 
@@ -78,6 +79,7 @@ a:hover {
 
 
   background: rgba(0, 0, 0, 0); /* Transparent background */
+
   border-radius: 15px; /* Curved corners */
   box-shadow: inset 0 0 100px rgba(0, 255, 0, 0.3); /* Optional green shadow for CRT effect */
   transform: scaleX(1.1) scaleY(1.1) rotateX(10deg) rotateY(10deg); /* Bending effect */
@@ -131,6 +133,15 @@ a:hover {
   overflow: hidden;
   
   background: #000; /* Black background to mimic CRT */
+
+  /* this below backaground shows the horizontal green lines on the screen */
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 0, 0.1), 
+    rgba(0, 255, 0, 0.1) 1px,
+    rgba(0, 255, 0, 0.2) 1px,
+    rgba(0, 255, 0, 0.0) 2px
+  );
   box-shadow: inset 0 2px 30px 5px rgba(0, 255, 0, 0.6); 
 }
 .crt-container::before {
