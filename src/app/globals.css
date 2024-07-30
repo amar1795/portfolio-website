@@ -16,15 +16,156 @@
   }
 }
 
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #000; /* Black background */
+  color: #00ff00; /* Green text */
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;  /* Terminal-like font */
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Glowing effect for all text */
+
 }
+
+p {
+  color: #00ff00;
+  text-decoration: none;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.7); /* Optional: glowing effect for links */
+}
+
+.terminal {
+  padding: 20px;
+  border: 1px solid #00ff00; /* Green border */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Glowing effect */
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #000; /* Dark background for terminal */
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.crt-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+
+.crt-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 30px; /* Adjust height and width to control the wave size */
+
+
+  background: rgba(0, 0, 0, 0); /* Transparent background */
+  border-radius: 15px; /* Curved corners */
+  box-shadow: inset 0 0 100px rgba(0, 255, 0, 0.3); /* Optional green shadow for CRT effect */
+  transform: scaleX(1.1) scaleY(1.1) rotateX(10deg) rotateY(10deg); /* Bending effect */
+  pointer-events: none;
+}
+
+
+
+
+@keyframes horizontal-sweep {
+  0% {
+    top: -2px; /* Start above the viewport */
+    opacity: 1; /* Fully visible */
+
+  }
+  50% {
+    top: 50%; /* Center of the viewport */
+    opacity: 1; /* Fully visible */
+
+  }
+  100% {
+    top: 100%; /* Move below the viewport */
+    opacity: 0; /* Fully visible */
+
+  }
+}
+
+
+@keyframes horizontal-sweep-trail {
+  0% {
+    top: -20px; /* Start position above the viewport, height of trail included */
+    height: 20px; /* Height of the trail */
+    opacity: 0.3; /* Faded visibility */
+  }
+  50% {
+    top: 50%; /* Center of the viewport */
+    height: 20px; /* Height of the trail */
+    opacity: 0.3; /* Faded visibility */
+  }
+  100% {
+    top: 100%; /* Move below the viewport */
+    height: 20px; /* Height of the trail */
+    opacity: 0; /* Fade out quickly */
+  }
+}
+
+.crt-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+  
+  background: #000; /* Black background to mimic CRT */
+  box-shadow: inset 0 2px 30px 5px rgba(0, 255, 0, 0.6); 
+}
+.crt-container::before {
+  content: '';
+  position: absolute;
+  top: -2px; /* Start position above the viewport */
+  left: 0;
+  width: 100%; /* Ensure full width */
+  /* height: 100%; */
+  height: 2px; 
+
+  background: rgba(62, 103, 62, 0.7); /* Green line */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Glowing effect */
+  animation: horizontal-sweep 4s linear infinite; 
+  z-index: 2; /* Above the trailing effect */
+
+  pointer-events: none;
+}
+.crt-container::after {
+  content: '';
+  position: absolute;
+  top: -20px; /* Start above the viewport */
+  left: 0;
+  width: 100%;
+  height: 20px; /* Height of the trail */
+  background: rgba(0, 255, 0, 0.3); /* Faded green line for trail */
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.5); /* Larger glowing effect */
+  animation: horizontal-sweep-trail 4s linear infinite; /* Adjust the duration as needed */
+  pointer-events: none; /* Ignore pointer events */
+  z-index: 1; /* Below the line */
+
+}
+
+
+
 
 @layer utilities {
   .text-balance {
