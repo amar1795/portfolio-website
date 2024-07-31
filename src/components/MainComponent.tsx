@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 import TypingEffect from "react-typing-effect";
 
@@ -27,14 +28,20 @@ const MainComponent = () => {
             
             <div className=" mt-5  flex items-center w-[70vw] flex-col  self-center">
               <p className=" mt-5">
-                I'm a developer who specializes in Full Stack web development and modern web
-                technologies.
+                I'm a developer who specializes in Full Stack web development and creating modern web
+                Apps and websites.
               </p>
-              <p className=" mt-5">Check out my projects and get in touch!</p>
-              <p className=" mt-5">
-                <a href="https://github.com/yourusername">GitHub</a> |{" "}
-                <a href="mailto:your.email@example.com">Email</a>
-              </p>
+              <div className=" mt-8 px-6 mb-7">
+            <h1> You can Find all my projects and work on my github :</h1>
+            <div className=" mt-4 flex items-center justify-center">
+              <div className=" flex items-center  h-[3rem] mx-4 ">
+                <Link href="https://github.com/amar1795"  target="_blank">
+                  {" "}
+                  <button className=" glow-button mx-2 my-2">Github</button>
+                </Link>
+              </div>
+            </div>
+          </div>
             </div>
             </div>
           </div>

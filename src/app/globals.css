@@ -16,16 +16,13 @@
   }
 }
 
-
-
 body {
   background-color: #000; /* Black background */
   color: #00ff00; /* Green text */
-  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;  /* Terminal-like font */
+  font-family: "Press Start 2P", "Courier New", Courier, monospace; /* Terminal-like font */
   margin: 0;
   padding: 0;
   text-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Glowing effect for all text */
-
 }
 
 p {
@@ -44,7 +41,10 @@ p {
   background-color: #000; /* Dark background for terminal */
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -63,20 +63,17 @@ a:hover {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  
-  
+
 }
 
-
 .crt-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-size: 100% 30px; /* Adjust height and width to control the wave size */
-
 
   background: rgba(0, 0, 0, 0); /* Transparent background */
 
@@ -86,27 +83,20 @@ a:hover {
   pointer-events: none;
 }
 
-
-
-
 @keyframes horizontal-sweep {
   0% {
     top: -2px; /* Start above the viewport */
     opacity: 1; /* Fully visible */
-
   }
   50% {
     top: 50%; /* Center of the viewport */
     opacity: 1; /* Fully visible */
-
   }
   100% {
     top: 100%; /* Move below the viewport */
     opacity: 0; /* Fully visible */
-
   }
 }
-
 
 @keyframes horizontal-sweep-trail {
   0% {
@@ -131,37 +121,37 @@ a:hover {
   width: 100%;
   height: 100vh; /* Adjust as needed */
   overflow: hidden;
-  
+ 
   background: #000; /* Black background to mimic CRT */
 
   /* this below backaground shows the horizontal green lines on the screen */
   background: repeating-linear-gradient(
     to bottom,
-    rgba(0, 255, 0, 0.1), 
+    rgba(0, 255, 0, 0.1),
     rgba(0, 255, 0, 0.1) 1px,
     rgba(0, 255, 0, 0.2) 1px,
-    rgba(0, 255, 0, 0.0) 2px
+    rgba(0, 255, 0, 0) 2px
   );
-  box-shadow: inset 0 2px 30px 5px rgba(0, 255, 0, 0.6); 
+  box-shadow: inset 0 2px 30px 5px rgba(0, 255, 0, 0.6);
 }
 .crt-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px; /* Start position above the viewport */
   left: 0;
   width: 100%; /* Ensure full width */
   /* height: 100%; */
-  height: 2px; 
+  height: 2px;
 
   background: rgba(62, 103, 62, 0.7); /* Green line */
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Glowing effect */
-  animation: horizontal-sweep 4s linear infinite; 
+  animation: horizontal-sweep 4s linear infinite;
   z-index: 2; /* Above the trailing effect */
 
   pointer-events: none;
 }
 .crt-container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -20px; /* Start above the viewport */
   left: 0;
@@ -172,43 +162,73 @@ a:hover {
   animation: horizontal-sweep-trail 4s linear infinite; /* Adjust the duration as needed */
   pointer-events: none; /* Ignore pointer events */
   z-index: 1; /* Below the line */
-
 }
-
 
 .glow-button {
   border: 2px solid rgba(0, 255, 0, 0.8); /* Green border */
   color: rgba(0, 255, 0, 0.8); /* Green text */
   padding: 10px 20px; /* Adjust padding as needed */
   font-size: 12px; /* Adjust font size */
-  text-align: center;
-  cursor: pointer;
-  position: relative;
-  outline: none;
-  
+  text-align: center; /* Center text */
+  cursor: pointer; /* Cursor on hover */
+  position: relative; /* Position for pseudo-element */
+  outline: none; /* Remove outline */
+
   border-radius: 5px; /* Rounded corners */
   transition: all 0.3s ease; /* Smooth transition */
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
 }
 
+.projectCard {
+  border: 2px solid rgba(0, 255, 0, 0.8); /* Green border */
+  color: rgba(0, 255, 0, 0.8); /* Green text */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 12px; /* Adjust font size */
+  text-align: center; /* Center text */
+  outline: none; /* Remove outline */
+  border-radius: 15px; /* Rounded corners */
 
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
+}
 
 .glow-button:hover::before {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .glow-button:hover {
-  background: rgba(4, 241, 4, 0.995); /* Light green background for glowing effect */
+  background: rgba(
+    4,
+    241,
+    4,
+    0.995
+  ); /* Light green background for glowing effect */
   color: #000000; /* Change text color on hover */
-  
+
   border-color: #00ff00; /* Change border color on hover */
   box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Enhanced glowing effect on hover */
 }
 
-
+.sectionBorder {
+  
+  border: 1px solid rgba(0, 255, 0, 0.8); /* Green border */
+  border-radius: 10px;
+  border-color: #00ff00; /* Change border color on hover */
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Enhanced glowing effect on hover */
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Add this to your global CSS file */
+.hide-scrollbar {
+  overflow: auto; /* Allow scrolling */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px; /* Hide scrollbar width */
+  background: transparent; /* Optional: Hide background */
 }
