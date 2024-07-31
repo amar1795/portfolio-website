@@ -16,6 +16,7 @@ const SideLinks = () => {
             )}
            <Link href={"/tech-stack"}><button  className="glow-button w-[11rem] my-2">Tech Stack</button></Link>
           <Link href={"/projects"}><button className="glow-button w-[11rem] my-2">Projects</button></Link>
+          <Link href={"/resume"}><button className="glow-button w-[11rem]  my-2">Resume</button></Link>
           <Link href={"/about-me"}><button className="glow-button w-[11rem]  my-2">About Me</button></Link>
           <Link href={"/contact-me"}><button className="glow-button w-[11rem]  my-2">Contact Me</button></Link>
     </div>
