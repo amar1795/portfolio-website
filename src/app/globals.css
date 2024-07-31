@@ -176,6 +176,35 @@ a:hover {
 }
 
 
+.glow-button {
+  border: 2px solid rgba(0, 255, 0, 0.8); /* Green border */
+  color: rgba(0, 255, 0, 0.8); /* Green text */
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 12px; /* Adjust font size */
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
+}
+
+
+
+.glow-button:hover::before {
+  opacity: 1; 
+}
+
+.glow-button:hover {
+  background: rgba(4, 241, 4, 0.995); /* Light green background for glowing effect */
+  color: #000000; /* Change text color on hover */
+  
+  border-color: #00ff00; /* Change border color on hover */
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Enhanced glowing effect on hover */
+}
+
 
 
 @layer utilities {
