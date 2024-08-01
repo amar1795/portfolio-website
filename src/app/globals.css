@@ -179,6 +179,17 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
 }
 
+@media (max-width: 500px) {
+  .glow-button {
+    font-size: 7px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 800px) {
+  .glow-button {
+    font-size: 8px; /* Adjust font size for smaller screens */
+  }
+}
 .projectCard {
   border: 2px solid rgba(0, 255, 0, 0.8); /* Green border */
   color: rgba(0, 255, 0, 0.8); /* Green text */
@@ -187,7 +198,7 @@ a:hover {
   text-align: center; /* Center text */
   outline: none; /* Remove outline */
   border-radius: 15px; /* Rounded corners */
-
+  
   transition: all 0.3s ease; /* Smooth transition */
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
 }
@@ -231,4 +242,47 @@ a:hover {
 .hide-scrollbar::-webkit-scrollbar {
   width: 0px; /* Hide scrollbar width */
   background: transparent; /* Optional: Hide background */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Sidebar hidden initially */
+  height: 100%;
+  width: 250px;
+  color: white;
+  background-color: #000;
+  /* background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 0, 0.1),
+    rgba(0, 255, 0, 0.1) 1px,
+    rgba(0, 255, 0, 0.2) 1px,
+    rgba(0, 255, 0, 0) 2px
+  ); */
+  transition: left 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  left: 0; /* Sidebar visible */
+}
+
+.sidebar .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
 }
