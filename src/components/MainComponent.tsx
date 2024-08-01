@@ -9,7 +9,7 @@ const MainComponent = () => {
   console.log("this is the pathname",pathname)
   const isHomePage = pathname === "/";
   return (
-    <div className="crt-wrapper  h-screen  text-center flex  overflow-y-auto below-1100:items-center below-1100:justify-center ">
+    <div className="crt-wrapper  h-screen  text-center flex   overflow-auto below-1100:items-center below-1100:justify-center ">
       <div className=" ">
         <div>
 
@@ -59,7 +59,12 @@ const MainComponent = () => {
                   <button className=" glow-button mx-2 my-2 text-[5rem] below-500:mx-1 below-500:my-1">Github</button>
                 </Link>
               </div>
+              <Link href="https://github.com/amar1795/portfolio-website"  target="_blank">
+                  {" "}
+                  <button className=" glow-button mx-2 my-2 text-[5rem] below-500:mx-1 below-500:my-1">Source Code</button>
+                </Link>
             </div>
+           
           </div>
             </div>
             </div>
