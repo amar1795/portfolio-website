@@ -60,7 +60,7 @@ const page = () => {
                   <div className=" flex items-center  h-[3rem] mx-4  below-500:mx-0 below-500:my-0  ">
                     <Link href="https://www.purchasespal.shop/" target="_blank">
                       {" "}
-                      <button className="below-600:text-[0.3rem]  glow-button mx-2 my-2  uppercase below-500:px-1 below-500:mx-1 below-550:w-[5rem] below-500:bg-red-700  ">
+                      <button className="  glow-button mx-2 my-2  uppercase below-500:px-1 below-500:mx-1 below-550:w-[5rem] below-500:bg-red-700 below-600:text-[0.2rem]  ">
                         Live Link
                       </button>
                     </Link>
