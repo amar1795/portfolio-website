@@ -56,7 +56,7 @@ const page = () => {
                 </p>
               </div>
               <div className="  flex justify-between h-[4rem] below-566:h-[8rem]  min-h-4   below-500:mx-0  below-500:px-0">
-                <div className=" flex  justify-between items-center below-566:flex-col  py-3 px-2  below-500:px-0  below-500:text-[0.4rem]">
+                <div className=" flex  justify-between items-center below-566:flex-col  py-3 px-2  below-500:px-0  ">
                   <div className=" flex items-center  h-[3rem] mx-4  below-500:mx-0 below-500:my-0  ">
                     <Link href="https://www.purchasespal.shop/" target="_blank">
                       {" "}
