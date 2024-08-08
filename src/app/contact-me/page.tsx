@@ -16,7 +16,7 @@ const page = () => {
           </div>
           <div className=" mt-8 px-6 below-378:px-0">
             <h1 className=" below-378:text-[0.6rem] uppercase">alternatively ! you can also reach out to me on my socials</h1>
-            <div className=" mt-4 flex items-center  bg-red-800 below-378:hidden">
+            <div className=" mt-4 flex items-center   below-378:hidden">
               <div className=" flex items-center  h-[3rem] mx-4 below-378:mx-0 ">
                 <Link href="https://www.linkedin.com/in/amarjeet-singh-298329242/"  target="_blank">
                   {" "}
@@ -24,7 +24,7 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className=" mt-4 flex items-center bg-red-800 below-378:hidden">
+            <div className=" mt-4 flex items-center  below-378:hidden">
               <div className=" flex items-center  h-[3rem] mx-4 below-378:mx-0 ">
                 <Link href="https://x.com/jeetamar496" target="_blank">
                   {" "}
