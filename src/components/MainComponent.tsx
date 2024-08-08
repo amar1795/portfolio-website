@@ -45,23 +45,23 @@ const MainComponent = () => {
             <div className=" flex items-center  flex-col ">
 
             
-            <div className=" mt-5  below-1100:text-[0.8rem] below-500:text-[0.5rem] flex items-center w-[70vw] flex-col below-1445:ml-[10rem]  below-1100:ml-0  self-center ">
-              <p className=" mt-5 ">
+            <div className=" mt-5  below-1100:text-[0.8rem] below-500:text-[0.5rem] flex items-center w-[70vw] flex-col below-1445:ml-[10rem]  below-1100:ml-0  self-center  ">
+              <p className=" mt-5 uppercase ">
                 I'm a developer who specializes in Full Stack web development and creating modern web
                 Apps and websites.
               </p>
               <div className=" mt-8 px-6 mb-7">
-            <h1> You can Find all my projects and work on my github :</h1>
+            <h1 className=" uppercase"> You can Find all my projects and work on my github :</h1>
             <div className=" mt-4 flex items-center justify-center">
               <div className=" flex items-center  h-[3rem] mx-4 ">
                 <Link href="https://github.com/amar1795"  target="_blank">
                   {" "}
-                  <button className=" glow-button mx-2 my-2 text-[5rem] below-500:mx-1 below-500:my-1">Github</button>
+                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem] below-500:mx-1 below-500:my-1 uppercase ">Github</button>
                 </Link>
               </div>
               <Link href="https://github.com/amar1795/portfolio-website"  target="_blank">
                   {" "}
-                  <button className=" glow-button mx-2 my-2 text-[5rem] below-500:mx-1 below-500:my-1">Source Code</button>
+                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem]  below-378:w-[8rem] below-500:mx-1 below-500:my-1 uppercase">Source Code</button>
                 </Link>
             </div>
            

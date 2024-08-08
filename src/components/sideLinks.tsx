@@ -32,23 +32,23 @@ const SideLinks = () => {
       <div className="flex flex-col justify-between below-1100:hidden ">
         {!isHomePage && (
           <Link href="/">
-            <button className="glow-button w-[11rem] my-2">Home</button>
+            <button className="glow-button w-[11rem] my-2 uppercase">Home</button>
           </Link>
         )}
         <Link href={"/tech-stack"}>
-          <button className="glow-button w-[11rem] my-2">Tech Stack</button>
+          <button className="glow-button w-[11rem] my-2 uppercase">Tech Stack</button>
         </Link>
         <Link href={"/projects"}>
-          <button className="glow-button w-[11rem] my-2">Projects</button>
+          <button className="glow-button w-[11rem] my-2 uppercase">Projects</button>
         </Link>
         <Link href={"/resume"}>
-          <button className="glow-button w-[11rem]  my-2">Resume</button>
+          <button className="glow-button w-[11rem]  my-2 uppercase">Resume</button>
         </Link>
         <Link href={"/about-me"}>
-          <button className="glow-button w-[11rem]  my-2">About Me</button>
+          <button className="glow-button w-[11rem]  my-2 uppercase" >About Me</button>
         </Link>
         <Link href={"/contact-me"}>
-          <button className="glow-button w-[11rem]  my-2">Contact Me</button>
+          <button className="glow-button w-[11rem]  my-2 uppercase">Contact Me</button>
         </Link>
       </div>
 
@@ -64,24 +64,24 @@ const SideLinks = () => {
             </button>
             <div className="flex flex-col justify-between  items-center mt-[3rem] w-full    ">
               <Link href="/">
-                <button className="glow-button  my-2 w-[10rem]" onClick={() => setIsOpen(false)}>Home</button>
+                <button className="glow-button  my-2 w-[10rem] uppercase " onClick={() => setIsOpen(false)}>Home</button>
               </Link>
               <Link href="/tech-stack">
-                <button className="glow-button w-[10rem] my-2" onClick={() => setIsOpen(false)}>
+                <button className="glow-button w-[10rem] my-2 uppercase" onClick={() => setIsOpen(false)}>
                   Tech Stack
                 </button>
               </Link>
               <Link href="/projects">
-                <button className="glow-button w-[10rem] my-2" onClick={() => setIsOpen(false)}>Projects</button>
+                <button className="glow-button w-[10rem] my-2 uppercase" onClick={() => setIsOpen(false)}>Projects</button>
               </Link>
               <Link href="/resume">
-                <button className="glow-button w-[10rem]  my-2" onClick={() => setIsOpen(false)}>Resume</button>
+                <button className="glow-button w-[10rem]  my-2 uppercase" onClick={() => setIsOpen(false)}>Resume</button>
               </Link>
               <Link href="/about-me">
-                <button className="glow-button w-[10rem] my-2" onClick={() => setIsOpen(false)}>About Me</button>
+                <button className="glow-button w-[10rem] my-2 uppercase" onClick={() => setIsOpen(false)}>About Me</button>
               </Link>
               <Link href="/contact-me">
-                <button className="glow-button w-[10rem] my-2" onClick={() => setIsOpen(false)}>
+                <button className="glow-button w-[10rem] my-2 uppercase" onClick={() => setIsOpen(false)}>
                   Contact Me
                 </button>
               </Link>

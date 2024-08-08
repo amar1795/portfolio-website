@@ -18,8 +18,8 @@ const page = async () => {
 
   return (
     <div className=" h-screen   overflow-auto   flex    ">
-      <div className=" mt-12  w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem]  ">
-        <h1 className="text-[6rem] uppercase below-650:text-[4rem] below-500:text-[2rem] ">Resume</h1>
+      <div className=" mt-12  w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem] below-378:mt-[8rem]  ">
+        <h1 className="text-[6rem] uppercase below-650:text-[4rem] below-500:text-[2rem] below-378:text-[1.1rem]   ">Resume</h1>
 
         <div className=" sectionBorder w-[80vw] ml-[12rem] below-500:mt-[2rem] below-1100:ml-0  px-4   ">
           <PdfViewer pdfUrl={MainpdfUrl} />
@@ -30,7 +30,7 @@ const page = async () => {
         <div className=" h-[20rem]">
         <div className=" mt-6 h-[10rem]">
             <a href={downloadUrl} download="resume.pdf">
-              <button className="glow-button">Download Resume</button>
+              <button className="glow-button uppercase below-378:text-[0.4rem]">Download Resume</button>
             </a>
           </div>
         </div>
