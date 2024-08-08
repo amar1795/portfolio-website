@@ -55,7 +55,7 @@ const page = () => {
                   categories .
                 </p>
               </div>
-              <div className=" bg-red-800  flex justify-between h-[4rem] below-566:h-[8rem]  min-h-4   below-500:mx-0  below-500:px-0">
+              <div className="   flex justify-between h-[4rem] below-566:h-[8rem]  min-h-4   below-500:mx-0  below-500:px-0">
                 <div className=" flex  justify-between items-center below-566:flex-col  py-3 px-2  below-500:px-0  ">
                   <div className=" flex items-center  h-[3rem] mx-4  below-500:mx-0 below-500:my-0  ">
                     <Link href="https://www.purchasespal.shop/" target="_blank">
@@ -78,7 +78,7 @@ const page = () => {
                 <div className=" flex items-center  h-[4rem]">
                   <Link href="/projects/1">
                     {" "}
-                    <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[12rem]  below-500:text-[0.3rem] uppercase below-500:mt-4">
+                    <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[12rem]  below-500:text-[0.2rem] uppercase below-500:mt-4">
                       View Project Details
                     </button>
                   </Link>
