@@ -69,7 +69,7 @@ const page = () => {
                   <div className=" flex items-center   h-[3rem] below-500:mt-0 ">
                     <Link href="https://github.com/amar1795/PROJECTS-" target="_blank">
                       {" "}
-                      <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-1 below-500:w-[6rem]  below-500:text-[0.3rem] uppercase">
+                      <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-1 below-500:w-[8rem]  below-500:text-[0.3rem] uppercase">
                         Source Code
                       </button>
                     </Link>
@@ -78,7 +78,7 @@ const page = () => {
                 <div className=" flex items-center  h-[4rem]">
                   <Link href="/projects/1">
                     {" "}
-                    <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-1 below-500:w-[9rem]  below-500:text-[0.3rem] uppercase below-500:mt-4">
+                    <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-1 below-500:w-[12rem]  below-500:text-[0.3rem] uppercase below-500:mt-4">
                       View Project Details
                     </button>
                   </Link>
