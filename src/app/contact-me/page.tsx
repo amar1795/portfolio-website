@@ -7,9 +7,9 @@ const page = () => {
       <div className="terminals mt-12    w-full flex flex-col items-center overflow-auto">
         <h1 className="text-[6rem] uppercase below-1445:text-[4rem] below-835:mt-[2rem] below-695:text-[2rem] below-500:text-[1.1rem] below-500:mt-[5rem] ">Contact Me</h1>
         <div className=" sectionBorder below-695:mt-[2rem]   w-[80vw]   ml-[12rem] below-1100:ml-0  px-4  ">
-          <div className=" mt-8 px-6 below-426:px-2 below-500:px-0   ">
-            <h1 className=" below-500:text-[0.6rem] uppercase"> You can Contact me on this Email :</h1>
-            <a href="mailto:your.facfrenzy97@gmail.com" className=" no-underline text-wrap   below-460:text-[0.8rem] below-426:text-[0.5rem] below-500:text-[0.6rem]">facfrenzy97@gmail.com
+          <div className=" mt-8 px-6  below-500:px-0   ">
+            <h1 className=" below-500:text-[0.6rem] uppercase"> You can Contact me on this Email </h1>
+            <a href="mailto:your.facfrenzy97@gmail.com" className=" no-underline text-wrap     below-500:text-[0.6rem]">facfrenzy97@gmail.com
             </a>
     
   
