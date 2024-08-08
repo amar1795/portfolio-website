@@ -55,8 +55,8 @@ const page = () => {
                   categories .
                 </p>
               </div>
-              <div className="   flex justify-between h-[4rem] below-566:h-[8rem]  min-h-4   below-500:mx-0  below-500:px-0">
-                <div className=" flex  justify-between items-center below-566:flex-col  py-3 px-2  below-500:px-0  ">
+              <div className="   below-500:hidden   flex justify-between h-[4rem] below-566:h-[8rem]  min-h-4   below-500:mx-0  below-500:px-0">
+                <div className=" flex  below-500:ml-0  justify-between below-566:flex-col  py-3 px-2  below-500:px-0  ">
                   <div className=" flex items-center  h-[3rem] mx-4  below-500:mx-0 below-500:my-0  ">
                     <Link href="https://www.purchasespal.shop/" target="_blank">
                       {" "}
@@ -83,6 +83,37 @@ const page = () => {
                     </button>
                   </Link>
                 </div>
+              </div>
+
+              <div className="  hidden  below-500:flex justify-between h-[4rem] below-500:h-[12rem]  min-h-4   below-500:mx-0  below-500:px-0">
+                <div className=" flex  below-500:ml-0   justify-between  below-566:flex-col  py-3 px-2  below-500:px-0  ">
+                  <div className=" flex items-center  mx-4  below-500:mx-0 below-500:my-0  ">
+                    <Link href="https://www.purchasespal.shop/" target="_blank">
+                      {" "}
+                      <button className="  glow-button mx-2 my-2  uppercase below-500:px-1 below-500:mx-0 below-500:w-[6rem]  below-500:text-[0.3rem]  ">
+                        Live Link
+                      </button>
+                    </Link>
+                  </div>
+
+                  <div className=" flex items-center    below-500:mt-0 ">
+                    <Link href="https://github.com/amar1795/PROJECTS-" target="_blank">
+                      {" "}
+                      <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[8rem]  below-500:text-[0.3rem] uppercase">
+                        Source Code
+                      </button>
+                    </Link>
+                  </div>
+                  <div className=" flex items-center  mb-6  ">
+                  <Link href="/projects/1">
+                    {" "}
+                    <button className=" glow-button mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[12rem]  below-500:text-[0.3rem] uppercase below-500:mt-4">
+                      View Project Details
+                    </button>
+                  </Link>
+                </div>
+                </div>
+                
               </div>
             </div>
           </div>

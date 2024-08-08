@@ -61,7 +61,7 @@ const MainComponent = () => {
               </div>
               <Link href="https://github.com/amar1795/portfolio-website"  target="_blank">
                   {" "}
-                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem]  below-378:w-[8rem] below-500:mx-1 below-500:my-1 uppercase below-500:w-[6rem]">Source Code</button>
+                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem]  below-378:w-[8rem] below-500:mx-1 below-500:my-1 uppercase below-500:w-[9rem]">Source Code</button>
                 </Link>
             </div>
            
