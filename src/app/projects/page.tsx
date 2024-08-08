@@ -46,7 +46,7 @@ const page = () => {
               <div className="  flex-1 pt-[1rem] ">
                 <h1 className=" text-[2rem] below-566:text-[1.5rem] below-426:text-[1rem] below-500:text-[0.8rem] uppercase">PurchasesPal Ecommerce</h1>
                 <p className=" mt-2  below-426:text-[0.7rem] below-500:mt-[2rem] uppercase below-500:text-[0.5rem]">5 May - 25 July 2024</p>
-                <p className=" mt-2 below-566:text-[0.8rem] below-500:mt-[2rem] uppercase below-500:text-[0.4rem] below-500: text-center">
+                <p className=" mt-2 below-566:text-[0.8rem] below-500:mt-[2rem] uppercase below-500:text-[0.4rem]  text-left">
                   A full Stack E-Commerce App made using the NextJs for both server and client side logic
                   utilizing its server actions for seamless and fast data
                   fethcing . Implemented password reset, email sending using
