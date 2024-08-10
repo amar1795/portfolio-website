@@ -12,10 +12,9 @@ import PdfViewer from "@/components/PdfViewer";
 const page = async () => {
   const pdfUrl =
     "https://drive.google.com/file/d/1icBiIv1Eoo4dNo8QDiEb8U-EoXfHeMaY/view?usp=sharing"; // Replace with the path to your PDF
-  const FileID = "1icBiIv1Eoo4dNo8QDiEb8U-EoXfHeMaY";
+  const FileID = "d/1QiJQz5WBx5DnjzSJ2QA1Ra_k1fmj9hKr";
   const MainpdfUrl = `https://drive.google.com/file/d/${FileID}/preview`;
-  const downloadUrl = `https://drive.google.com/uc?export=download&id=1icBiIv1Eoo4dNo8QDiEb8U-EoXfHeMaY`;
-
+  const downloadUrl = `https://drive.google.com/file/d/1QiJQz5WBx5DnjzSJ2QA1Ra_k1fmj9hKr/view?usp=sharing`;
   return (
     <div className=" h-screen   overflow-auto   flex    ">
       <div className=" mt-12  w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem] below-378:mt-[8rem]  ">
