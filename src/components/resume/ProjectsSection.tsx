@@ -22,12 +22,13 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
                 <p className="text-green-400 font-medium mb-2">Technologies:</p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <span
+                    <button
                       key={techIndex}
-                      className="bg-green-400/20 text-green-300 px-2 py-1 rounded text-sm border border-green-400/30"
+                      className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-sm uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30"
+                      style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)' }}
                     >
                       {tech}
-                    </span>
+                    </button>
                   ))}
                 </div>
               </div>
