@@ -7,11 +7,11 @@ import ProjectsSection from "@/components/resume/ProjectsSection";
 import SkillsSection from "@/components/resume/SkillsSection";
 
 const page = async () => {
-  const downloadUrl = `https://drive.google.com/file/d/1yqqygQLgWccZ_Pj4NAiqQ1avceuxeVBA/view?usp=drive_link`;
+  const downloadUrl = `https://drive.google.com/uc?export=download&id=1yqqygQLgWccZ_Pj4NAiqQ1avceuxeVBA`;
   
   return (
     <div className="h-screen overflow-auto flex">
-      <div className="mt-12 w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem] below-378:mt-[8rem]">
+      <div className="mt-12 w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem] below-378:mt-[8rem] ">
         <div className="w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
           <h1 className="text-[6rem] uppercase below-650:text-[4rem] below-500:text-[2rem] below-378:text-[1.1rem]">Resume</h1>
         </div>
@@ -25,7 +25,7 @@ const page = async () => {
         </div>
         
         <div className="mt-8 mb-32 pb-20 w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
-          <a href={downloadUrl} target="_blank" rel="noopener noreferrer">
+          <a href={downloadUrl} download="Amarjeet_Singh_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="glow-button uppercase below-378:text-[0.4rem]">Download Resume PDF</button>
           </a>
         </div>
