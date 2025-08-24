@@ -20,36 +20,36 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
         <h1 className="text-4xl font-bold text-green-400 mb-4 uppercase tracking-wider">
           {personalInfo.name}
         </h1>
-        <div className="flex flex-wrap justify-center gap-4 text-green-200 text-sm">
-          <span>{personalInfo.phone}</span>
-          <span>|</span>
-          <a href={`mailto:${personalInfo.email}`} className="hover:text-green-400 transition-colors">
+        <div className="flex flex-wrap justify-center gap-4 text-sm">
+          <span className="text-green-400">{personalInfo.phone}</span>
+          <span className="text-green-400">|</span>
+          <a href={`mailto:${personalInfo.email}`} className="text-green-400 hover:text-green-300 transition-colors">
             {personalInfo.email}
           </a>
-          <span>|</span>
+          <span className="text-green-400">|</span>
           <a 
             href={`https://${personalInfo.linkedin}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="hover:text-green-400 transition-colors"
+            className="text-green-400 hover:text-green-300 transition-colors"
           >
             {personalInfo.linkedin}
           </a>
-          <span>|</span>
+          <span className="text-green-400">|</span>
           <a 
             href={`https://${personalInfo.github}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="hover:text-green-400 transition-colors"
+            className="text-green-400 hover:text-green-300 transition-colors"
           >
             {personalInfo.github}
           </a>
-          <span>|</span>
+          <span className="text-green-400">|</span>
           <a 
             href={`https://${personalInfo.portfolio}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="hover:text-green-400 transition-colors"
+            className="text-green-400 hover:text-green-300 transition-colors"
           >
             {personalInfo.portfolio}
           </a>
