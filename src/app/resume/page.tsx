@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { resumeData } from "@/data/resumeData";
 import PersonalInfoSection from "@/components/resume/PersonalInfoSection";
@@ -8,6 +9,16 @@ import SkillsSection from "@/components/resume/SkillsSection";
 
 const page = async () => {
   const downloadUrl = `https://drive.google.com/uc?export=download&id=1yqqygQLgWccZ_Pj4NAiqQ1avceuxeVBA`;
+  
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+    link.download = 'Amarjeet_Singh_Resume.pdf';
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
   return (
     <div className="h-screen overflow-auto flex">
@@ -25,9 +36,12 @@ const page = async () => {
         </div>
         
         <div className="mt-8 mb-32 pb-20 w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
-          <a href={downloadUrl} download="Amarjeet_Singh_Resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="glow-button uppercase below-378:text-[0.4rem]">Download Resume PDF</button>
-          </a>
+          <button 
+            onClick={handleDownload}
+            className="glow-button uppercase below-378:text-[0.4rem]"
+          >
+            Download Resume PDF
+          </button>
         </div>
       </div>
     </div>
