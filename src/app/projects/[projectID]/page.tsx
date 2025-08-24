@@ -5,10 +5,10 @@ const page = ({ params }: { params: { projectID: string } }) => {
   return (
     <div className=" h-screen   overflow-auto   flex    ">
       <div className=" mt-12  w-full flex flex-col items-center  below-500:mt-[5rem] ">
-        <h1 className="text-[6rem] uppercase below-1025:text-[4rem] below-635:text-[2rem]  below-500:mt-7 below-500:text-[1.1rem] ">Projects</h1>
+        <h1 className="text-[6rem] uppercase below-1025:text-[4rem] below-635:text-[2rem]  below-500:mt-7 below-500:text-[1.1rem] text-green-100 italic">Projects</h1>
         <div className=" sectionBorder w-[80vw] ml-[12rem] below-635:mt-7 below-1100:ml-0  px-4   pl-7   below-500:px-2">
           <div className=" text-center uppercase mt-7">
-            <h1 className=" text-[2rem] below-635:text-[1.5rem] below-426:text-[1.2rem]  below-500:text-[0.7rem]  "> PurchasesPal Ecommerce</h1>
+            <h1 className=" text-[2rem] below-635:text-[1.5rem] below-426:text-[1.2rem]  below-500:text-[0.7rem] text-green-100 italic"> PurchasesPal Ecommerce</h1>
           </div>
 
           <h1 className=" my-4 below-500:text-center">
