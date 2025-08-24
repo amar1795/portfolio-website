@@ -1,0 +1,39 @@
+import React from 'react';
+
+interface Skill {
+  category: string;
+  items: string[];
+}
+
+interface SkillsSectionProps {
+  skills: Skill[];
+}
+
+const SkillsSection: React.FC<SkillsSectionProps> = ({ skills }) => {
+  return (
+    <div className="mb-8">
+      <h2 className="text-3xl font-bold text-green-400 mb-6 uppercase tracking-wider border-b-2 border-green-400 pb-2">
+        Skills
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {skills.map((skillCategory, index) => (
+          <div key={index} className="bg-black/50 border border-green-400/30 p-4 rounded-lg">
+            <h3 className="text-xl font-semibold text-green-300 mb-3">{skillCategory.category}</h3>
+            <div className="flex flex-wrap gap-2">
+              {skillCategory.items.map((skill, skillIndex) => (
+                <span
+                  key={skillIndex}
+                  className="bg-green-400/20 text-green-300 px-3 py-1 rounded-full text-sm border border-green-400/30 hover:bg-green-400/30 transition-colors"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default SkillsSection;
