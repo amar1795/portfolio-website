@@ -89,19 +89,19 @@ export const resumeData: ResumeData = {
       name: "PurchasesPal",
       description: "Developed a comprehensive e-commerce application using Next.js, leveraging its server-side actions for seamless and efficient data fetching. Implemented advanced features including password reset, email notifications via Mailgun, and deep nested product categories to enhance application performance and organization. Optimized SEO performance for both web and mobile platforms by utilizing Next.js server-side logic. Integrated Stripe payment gateway and a built-in wallet feature to streamline and enhance the payment process.",
       technologies: ["Next.js", "React", "TypeScript", "Prisma", "MongoDB", "NextAuth", "Stripe", "Mailgun"],
-      link: "Source Code | Live Link"
+      link: "https://github.com/amar1795/PROJECTS- | https://optimzed-e-commerce-git-main-amar1795s-projects.vercel.app/"
     },
     {
       name: "Portfolio Website",
       description: "Developed a fully functional application in a few hours using Next.js, TypeScript, and Tailwind CSS. Utilized the Next.js App-based router for efficient routing within the application. Created a mobile-responsive website to ensure optimal user experience across various devices.",
       technologies: ["Next.js", "TypeScript", "Tailwind"],
-      link: "Source Code | Live Link"
+      link: "https://github.com/amar1795/portfolio-website | https://www.amarjeetsingh.xyz/"
     },
     {
       name: "PDF-to-Excel-converter",
       description: "Developed a cross-platform desktop application for automated PDF-to-Excel conversion using Electron (JavaScript) and Python. Integrated Google Gemini AI for intelligent document parsing and data extraction. Utilized libraries such as pandas, pdf2image, and xlsx writer for efficient data processing and spreadsheet generation. Packaged and deployed the application as a standalone Windows executable for easy distribution. Implemented secure API key management and optimized the workflow for fast, accurate conversions.",
       technologies: ["Electron", "Python", "Gemini AI", "pandas", "pdfplumber"],
-      link: "Source Code"
+      link: "https://github.com/amar1795/PDF-to-Excel-ai-converter"
     }
   ],
   skills: [
