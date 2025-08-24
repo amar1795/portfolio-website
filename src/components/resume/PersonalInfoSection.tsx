@@ -17,10 +17,10 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
   return (
     <div className="mb-8">
       <div className="text-center mb-8">
-        <h1 className="text-5xl font-bold text-green-400 mb-4 uppercase tracking-wider">
+        <h1 className="text-4xl font-bold text-green-400 mb-4 uppercase tracking-wider">
           {personalInfo.name}
         </h1>
-        <div className="flex flex-wrap justify-center gap-4 text-green-200">
+        <div className="flex flex-wrap justify-center gap-4 text-green-200 text-sm">
           <span>{personalInfo.phone}</span>
           <span>|</span>
           <a href={`mailto:${personalInfo.email}`} className="hover:text-green-400 transition-colors">

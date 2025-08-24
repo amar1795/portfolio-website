@@ -9,7 +9,7 @@ const page = () => {
         <div className=" sectionBorder below-695:mt-[2rem]   w-[80vw]   ml-[12rem] below-1100:ml-0  px-4  ">
           <div className=" mt-8 px-6  below-500:px-0   ">
             <h1 className=" below-500:text-[0.6rem] uppercase"> You can Contact me on this Email </h1>
-            <a href="mailto:your.facfrenzy97@gmail.com" className=" no-underline text-wrap     below-500:text-[0.6rem]">facfrenzy97@gmail.com
+            <a href="mailto:your.jeetamar0038@gmail.com" className=" no-underline text-wrap     below-500:text-[0.6rem]">jeetamar0038@gmail.com
             </a>
     
   
