@@ -4,7 +4,9 @@ const page = () => {
   return (
     <div className=" h-screen   overflow-auto   flex    ">
       <div className=" mt-12  w-full flex flex-col items-center below-700:mt-[4rem] below-635:mt-[7rem]  ">
-        <h1 className="text-[6rem] uppercase below-1000:text-[4rem] below-550:text-[2rem] below-500:text-[1.1rem] text-green-400">About me</h1>
+        <div className="w-[80vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
+          <h1 className="text-[6rem] uppercase below-1000:text-[4rem] below-550:text-[2rem] below-500:text-[1.1rem] text-green-400">About me</h1>
+        </div>
         <div className=" sectionBorder w-[80vw]  ml-[12rem] below-500:ml-0 below-500:px-3 below-550:mt-[2rem]    below-1100:ml-0  px-8   ">
           <p className=" my-4 mt-[3rem] text-sm below-500:mx-0 uppercase below-500:text-xs text-green-100 italic ">
             My Name is Amarjeet Singh , Currently a fullStack web developer with
@@ -78,7 +80,8 @@ const page = () => {
 
 
         </div>
-        <div className=" h-[5rem] "></div>
+        
+        <div className="mt-8 mb-32 pb-20 w-[80vw] max-w-6xl ml-[12rem] below-1100:ml-0"></div>
       </div>
     </div>
   );
