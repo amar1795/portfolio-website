@@ -33,8 +33,8 @@ const MainComponent = () => {
             <h1 className=" text-[2rem] uppercase below-1445:text-[1.5rem] below-1100:text-[1rem] below-500:text-[0.8rem]">
               <TypingEffect
                 text={[
-                  "I'm a Fullstack web Developer",
-                  "Who Loves to create beautifull apps",
+                  "I'm a Fullstack Software Engineer",
+                  "I create anything and everything",
                   "Explore My Work",
                 ]}
                 speed={40}
