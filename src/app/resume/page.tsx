@@ -7,7 +7,7 @@ import ProjectsSection from "@/components/resume/ProjectsSection";
 import SkillsSection from "@/components/resume/SkillsSection";
 
 const page = async () => {
-  const downloadUrl = `https://drive.google.com/file/d/1QiJQz5WBx5DnjzSJ2QA1Ra_k1fmj9hKr/view?usp=sharing`;
+  const downloadUrl = `https://drive.google.com/file/d/1yqqygQLgWccZ_Pj4NAiqQ1avceuxeVBA/view?usp=drive_link`;
   
   return (
     <div className="h-screen overflow-auto flex">

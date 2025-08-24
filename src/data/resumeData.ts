@@ -50,22 +50,16 @@ export const resumeData: ResumeData = {
   },
   education: [
     {
-      institution: "Scaler Academy",
-      degree: "Software Engineering",
+      institution: "Woolf University",
+      degree: "MS in Computer Science",
       location: "Online",
-      duration: "Oct. 2022 - April 2024"
+      duration: "Jan 2025 - May 2025"
     },
     {
       institution: "Gandhi Institute of Technology and Management",
       degree: "Bachelors of computer application",
       location: "Vishakhapatnam, Andhra Pradesh",
       duration: "Aug. 2014 - May 2017"
-    },
-    {
-      institution: "Narayan Junior College",
-      degree: "HSC/Intermediate",
-      location: "Vishakhapatnam, Andhra Pradesh",
-      duration: "Aug. 2012 - May 2014"
     }
   ],
   experience: [
@@ -75,9 +69,8 @@ export const resumeData: ResumeData = {
       location: "Gurgaon, Haryana",
       duration: "April 2022 - Jan 2023",
       responsibilities: [
-        "Specialized in curating and managing bespoke holiday packages for high-value clients, including Gold Guest List Members, to enhance their travel experiences and drive revenue growth.",
-        "Delivered comprehensive training to junior consultants on advanced call handling and customer service techniques for both premium and standard clients, ensuring consistent service excellence.",
-        "Recognized as a top performer on a monthly and quarterly basis for exceptional quality and sales achievements through online bookings."
+        "Delivered premium support to high-value clients, managing complex travel requests with precision and professionalism. Trained and mentored junior consultants on effective communication and process handling, ensuring consistent service quality across the team.",
+        "Recognized as a top performer for consistently exceeding customer satisfaction and performance targets."
       ]
     },
     {
@@ -86,45 +79,47 @@ export const resumeData: ResumeData = {
       location: "Noida, UP",
       duration: "Aug. 2018 - Jan 2021",
       responsibilities: [
-        "Worked as a Subject Matter Expert (SME) to provide advanced support and training to newly joined agents, enhancing their proficiency in handling customer inquiries efficiently.",
-        "Developed expertise across various Amazon customer service departments, including Amazon Prime, Fresh, Pantry, and international markets such as Amazon India, UK, US, and Japan, as well as products like Echo and Fire TV.",
-        "Conducted comprehensive training for new teams on Amazon's domestic and international phone, chat, and email support, ensuring high standards of customer service delivery."
+        "Served as Subject Matter Expert (SME) across multiple Amazon domains (Prime, Fresh, Pantry, Echo, Fire TV, and international markets). Trained and guided new team members, improving onboarding efficiency and service delivery standards.",
+        "Developed strong analytical and problem-solving skills by handling escalations and resolving complex customer and operational issues."
       ]
     }
   ],
   projects: [
     {
+      name: "PurchasesPal",
+      description: "Developed a comprehensive e-commerce application using Next.js, leveraging its server-side actions for seamless and efficient data fetching. Implemented advanced features including password reset, email notifications via Mailgun, and deep nested product categories to enhance application performance and organization. Optimized SEO performance for both web and mobile platforms by utilizing Next.js server-side logic. Integrated Stripe payment gateway and a built-in wallet feature to streamline and enhance the payment process.",
+      technologies: ["Next.js", "React", "TypeScript", "Prisma", "MongoDB", "NextAuth", "Stripe", "Mailgun"],
+      link: "Source Code | Live Link"
+    },
+    {
       name: "Portfolio Website",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS featuring a matrix-style green theme",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"]
+      description: "Developed a fully functional application in a few hours using Next.js, TypeScript, and Tailwind CSS. Utilized the Next.js App-based router for efficient routing within the application. Created a mobile-responsive website to ensure optimal user experience across various devices.",
+      technologies: ["Next.js", "TypeScript", "Tailwind"],
+      link: "Source Code | Live Link"
     },
     {
-      name: "E-commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration and admin dashboard",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"]
-    },
-    {
-      name: "Task Management App",
-      description: "A collaborative task management application with real-time updates",
-      technologies: ["React", "Firebase", "Material-UI"]
+      name: "PDF-to-Excel-converter",
+      description: "Developed a cross-platform desktop application for automated PDF-to-Excel conversion using Electron (JavaScript) and Python. Integrated Google Gemini AI for intelligent document parsing and data extraction. Utilized libraries such as pandas, pdf2image, and xlsx writer for efficient data processing and spreadsheet generation. Packaged and deployed the application as a standalone Windows executable for easy distribution. Implemented secure API key management and optimized the workflow for fast, accurate conversions.",
+      technologies: ["Electron", "Python", "Gemini AI", "pandas", "pdfplumber"],
+      link: "Source Code"
     }
   ],
   skills: [
     {
-      category: "Programming Languages",
-      items: ["JavaScript", "TypeScript", "Python", "Java", "HTML", "CSS"]
+      category: "Languages",
+      items: ["JavaScript", "TypeScript", "Java", "Python", "HTML", "CSS"]
     },
     {
-      category: "Frontend Technologies",
-      items: ["React", "Next.js", "Vue.js", "Tailwind CSS", "Bootstrap", "Material-UI"]
+      category: "Frameworks",
+      items: ["React", "React Native", "Next.js", "WordPress", "Material-UI", "Daisy UI", "Node.js"]
     },
     {
-      category: "Backend Technologies",
-      items: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase"]
+      category: "Developer Tools",
+      items: ["Git", "GitHub", "Google Cloud Platform", "Visual Studio", "Cloudinary", "Mailgun", "Stripe", "Vercel", "Hostinger", "Gemini Studio"]
     },
     {
-      category: "Tools & Technologies",
-      items: ["Git", "Docker", "AWS", "Vercel", "Figma", "VS Code"]
+      category: "Libraries",
+      items: ["Express.js", "clerk", "redux", "react-router"]
     }
   ]
 };
