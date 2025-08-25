@@ -135,16 +135,15 @@ a:hover {
   }
 }
 .projectCard {
-  border: 2px solid rgba(0, 255, 0, 0.8); /* Green border */
+  border: 2px solid #22c55eCC; /* Match button border-green-400/80 */
   color: rgba(0, 255, 0, 0.8); /* Green text */
   padding: 10px 20px; /* Adjust padding as needed */
   font-size: 12px; /* Adjust font size */
   text-align: center; /* Center text */
   outline: none; /* Remove outline */
   border-radius: 15px; /* Rounded corners */
-  
   transition: all 0.3s ease; /* Smooth transition */
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Initial glowing effect */
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.5); /* Match button boxShadow */
 }
 
 .glow-button:hover::before {
@@ -166,10 +165,9 @@ a:hover {
 
 .sectionBorder {
   
-  border: 1px solid rgba(0, 255, 0, 0.8); /* Green border */
+  border: 2px solid #22c55eCC; /* Match button border-green-400/80 */
   border-radius: 10px;
-  border-color: #00ff00; /* Change border color on hover */
-  box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Enhanced glowing effect on hover */
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.5); /* Match button boxShadow */
 }
 
 @layer utilities {

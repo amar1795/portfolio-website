@@ -29,7 +29,7 @@ const SideLinks = () => {
   return (
     <div>
       {/* desktop */}
-      <div className="flex flex-col justify-between below-1100:hidden ">
+      <div className="flex flex-col justify-between mt-32 below-1100:hidden ">
         {!isHomePage && (
           <Link href="/">
             <button className="border-2 border-green-400/80 text-green-300 px-5 py-2 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 w-[11rem] my-2" style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)' }}>Home</button>

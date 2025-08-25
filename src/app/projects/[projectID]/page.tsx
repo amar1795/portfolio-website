@@ -27,7 +27,7 @@ const page = ({ params }: { params: { projectID: string } }) => {
         </h1>
 
         {/* Back Button */}
-        <div className="w-[80vw] ml-[12rem] below-1100:ml-0 mt-4 below-500:mt-2 pb-6">
+        <div className="w-[78vw] ml-[14rem] below-1100:ml-0 mt-4 below-500:mt-2 pb-6">
           <Link href="/projects">
             <button
               className="border-2 border-green-400/80 text-green-300 px-4 py-1 text-sm uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-500:text-xs below-500:px-3 below-500:py-1"
@@ -41,7 +41,7 @@ const page = ({ params }: { params: { projectID: string } }) => {
           </Link>
         </div>
 
-        <div className=" sectionBorder w-[80vw] ml-[12rem] below-635:mt-7 below-1100:ml-0  px-4   pl-7   below-500:px-2">
+        <div className=" sectionBorder w-[78vw] ml-[14rem] below-635:mt-7 below-1100:ml-0  px-4   pl-7   below-500:px-2">
           <div className=" text-center uppercase mt-7">
             <h1 className=" text-[2rem] below-635:text-[1.5rem] below-426:text-[1.2rem]  below-500:text-[0.7rem] text-green-100 italic">
               {currentProject.name}
