@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Convert Google Drive shareable link to embeddable link
-const getEmbedUrl = (url) => {
+const getEmbedUrl = (url: string) => {
     const fileIdMatch = url.match(/\/d\/(.*)\/view/);
     if (fileIdMatch && fileIdMatch[1]) {
         return `https://drive.google.com/uc?export=view&id=${fileIdMatch[1]}`;
@@ -9,7 +9,7 @@ const getEmbedUrl = (url) => {
     return url; // Fallback if the URL does not match expected pattern
 };
 
-const PdfViewer = ({ pdfUrl }) => {
+const PdfViewer = ({ pdfUrl }: { pdfUrl: any }) => {
     const embedUrl = getEmbedUrl(pdfUrl);
 
     return (

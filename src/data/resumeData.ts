@@ -92,7 +92,7 @@ export const resumeData: ResumeData = {
     name: "PurchasesPal",
     duration: "May 2024 - July 2024",
     sourceCode: "https://github.com/amar1795/PROJECTS",
-    description: "Developed a comprehensive e-commerce application using Next.js with advanced features, optimized SEO, and secure payments.",
+    description: "Developed a comprehensive e-commerce application using Next.js, leveraging its server-side actions for seamless and efficient data fetching. Implemented advanced features including password reset, email notifications via Mailgun, and deep nested product categories to enhance application performance and organization. Optimized SEO performance for both web and mobile platforms by utilizing Next.js server-side logic. Integrated Stripe payment gateway and a built-in wallet feature to streamline and enhance the payment process.",
     detailedDescription: [
       "Developed a scalable and feature-rich e-commerce application leveraging **Next.js App Router** and server actions for efficient server-side rendering (SSR) and data fetching.",
       "Designed and implemented **deeply nested product categories** to ensure robust organization and better filtering/search experiences for users.",
@@ -112,7 +112,7 @@ export const resumeData: ResumeData = {
     name: "Portfolio Website",
     duration: "July 2024 - July 2024",
     sourceCode: "https://github.com/amar1795/portfolio-website",
-    description: "Developed a mobile-responsive portfolio website using Next.js, TypeScript, and Tailwind CSS.",
+    description: "Developed a fully functional application in a few hours using Next.js, TypeScript, and Tailwind CSS. Utilized the Next.js App-based router for efficient routing within the application. Created a mobile-responsive website to ensure optimal user experience across various devices.",
     detailedDescription: [
       "Developed a **personal portfolio website** using Next.js, TypeScript, and Tailwind CSS to showcase projects, skills, and work experience.",
       "Utilized the **Next.js App Router** for clean and optimized routing between pages and sections.",
@@ -131,7 +131,7 @@ export const resumeData: ResumeData = {
     name: "PDF-to-Excel-converter",
     duration: "May 2025 - May 2025",
     sourceCode: "https://github.com/amar1795/PDF-to-Excel-ai-converter",
-    description: "Developed a cross-platform desktop app for automated PDF-to-Excel conversion with AI-driven parsing.",
+    description: "Developed a cross-platform desktop application for automated PDF-to-Excel conversion using Electron (JavaScript) and Python. Integrated Google Gemini AI for intelligent document parsing and data extraction. Utilized libraries such as pandas, pdf2image, and xlsx writer for efficient data processing and spreadsheet generation. Packaged and deployed the application as a standalone Windows executable for easy distribution. Implemented secure API key management and optimized the workflow for fast, accurate conversions.",
     detailedDescription: [
       "Developed a **cross-platform desktop application** using Electron (JavaScript) and Python for automated PDF-to-Excel conversion.",
       "Integrated **Google Gemini AI** for intelligent document parsing, table recognition, and accurate data extraction.",
