@@ -10,14 +10,17 @@ const page = () => {
         </div>
         <div className=" sectionBorder below-695:mt-[2rem]   w-[78vw]  ml-[14rem] below-1100:ml-0  px-4  ">
           <div className=" mt-8 px-6  below-500:px-0   ">
-            <h1 className="uppercase text-green-100 text-xs below-500:text-[0.6rem] italic"> You can Contact me on this Email </h1>
-            <a href="mailto:your.jeetamar0038@gmail.com" className=" no-underline text-wrap text-green-100 text-xs below-500:text-[0.6rem] italic">jeetamar0038@gmail.com
-            </a>
+            <h1 className="uppercase leading-loose text-green-100 text-xs below-500:text-[0.6rem] mb-4 italic">  Got a wild idea? A problem that needs fixing? Or just want to geek out about code?  
+  Slide into my inbox or socials — I actually reply.</h1>
+            
     
   
           </div>
           <div className=" mt-8 px-6 below-500:px-0">
-            <h1 className="uppercase text-green-100 text-xs below-500:text-[0.6rem] italic">alternatively ! you can also reach out to me on my socials</h1>
+            <h1 className="uppercase text-green-100 text-xs below-500:text-[0.6rem] italic">Drop a line: <a href="mailto:your.jeetamar0038@gmail.com" className=" no-underline  text-wrap text-green-100 text-xs below-500:text-[0.6rem] italic">jeetamar0038@gmail.com
+            </a></h1>
+
+            <h1 className="uppercase leading-loose text-green-100 text-xs below-500:text-[0.6rem]  my-6 italic">Stalk me on :</h1>
             <div className=" mt-4 flex items-center   below-500:hidden">
               <div className=" flex items-center  h-[3rem] mx-4 below-500:mx-0 ">
                 <Link href="https://www.linkedin.com/in/amarjeet-singh-298329242/"  target="_blank">
@@ -28,7 +31,8 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className=" mt-4 flex items-center  below-500:hidden">
+            <h1 className="uppercase leading-loose text-green-100 text-xs below-500:text-[0.6rem] ml-16 italic">OR</h1>
+            <div className="  flex items-center  below-500:hidden">
               <div className=" flex items-center  h-[3rem] mx-4 below-500:mx-0 ">
                 <Link href="https://x.com/jeetamar496" target="_blank">
                   {" "}
@@ -62,8 +66,10 @@ const page = () => {
             </div>
           </div>
 
+          
+
           <div className=" mt-8 px-6 mb-7 uppercase below-500:px-0">
-            <h1 className="text-green-100 text-xs below-500:text-[0.6rem] italic"> You can Find all my projects and work on my github :</h1>
+            <h1 className="text-green-100 text-xs below-500:text-[0.6rem] italic"> Dig through my code playground on :</h1>
             <div className=" mt-4 flex items-center">
               <div className=" flex items-center  h-[3rem] mx-4 ">
                 <Link href="https://github.com/amar1795"  target="_blank">
