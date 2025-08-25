@@ -19,6 +19,7 @@ export interface Project {
   duration: string;
   sourceCode: string;
   description: string;
+  videoSrc?: string;
   detailedDescription: string[];
   technologies?: string[];
   link?: string;
@@ -92,6 +93,7 @@ export const resumeData: ResumeData = {
     name: "PurchasesPal",
     duration: "May 2024 - July 2024",
     sourceCode: "https://github.com/amar1795/PROJECTS",
+    videoSrc: "https://res.cloudinary.com/dfveswqdm/video/upload/v1722445942/Untitled_video_-_Made_with_Clipchamp_2_a9vec4.mp4",
     description: "Developed a comprehensive e-commerce application using Next.js, leveraging its server-side actions for seamless and efficient data fetching. Implemented advanced features including password reset, email notifications via Mailgun, and deep nested product categories to enhance application performance and organization. Optimized SEO performance for both web and mobile platforms by utilizing Next.js server-side logic. Integrated Stripe payment gateway and a built-in wallet feature to streamline and enhance the payment process.",
     detailedDescription: [
       "Developed a scalable and feature-rich e-commerce application leveraging **Next.js App Router** and server actions for efficient server-side rendering (SSR) and data fetching.",
@@ -112,6 +114,7 @@ export const resumeData: ResumeData = {
     name: "Portfolio Website",
     duration: "July 2024 - July 2024",
     sourceCode: "https://github.com/amar1795/portfolio-website",
+    videoSrc: "https://res.cloudinary.com/dfveswqdm/video/upload/v1722516807/Untitled_video_-_Made_with_Clipchamp_4_dwovn2.mp4",
     description: "Developed a fully functional application in a few hours using Next.js, TypeScript, and Tailwind CSS. Utilized the Next.js App-based router for efficient routing within the application. Created a mobile-responsive website to ensure optimal user experience across various devices.",
     detailedDescription: [
       "Developed a **personal portfolio website** using Next.js, TypeScript, and Tailwind CSS to showcase projects, skills, and work experience.",
@@ -131,6 +134,7 @@ export const resumeData: ResumeData = {
     name: "PDF-to-Excel-converter",
     duration: "May 2025 - May 2025",
     sourceCode: "https://github.com/amar1795/PDF-to-Excel-ai-converter",
+    videoSrc: "https://res.cloudinary.com/dfveswqdm/video/upload/v1756104190/PDFtoExcel_dcdflq.mp4",
     description: "Developed a cross-platform desktop application for automated PDF-to-Excel conversion using Electron (JavaScript) and Python. Integrated Google Gemini AI for intelligent document parsing and data extraction. Utilized libraries such as pandas, pdf2image, and xlsx writer for efficient data processing and spreadsheet generation. Packaged and deployed the application as a standalone Windows executable for easy distribution. Implemented secure API key management and optimized the workflow for fast, accurate conversions.",
     detailedDescription: [
       "Developed a **cross-platform desktop application** using Electron (JavaScript) and Python for automated PDF-to-Excel conversion.",
