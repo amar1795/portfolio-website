@@ -28,9 +28,9 @@ const MainComponent = () => {
     </div>
           </div> */}
           <div className="terminals mt-2 below-1100:mt-5 below-400:mt-[5rem]">
-            <h1 className="text-[6rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-500:text-[1rem] below-445:px-5 ">Welcome to My Website</h1>
+            <h1 className="text-[6rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-500:text-[1rem] below-445:px-5 text-green-100 italic">Welcome to My Website</h1>
             <div className=" ml-[10rem] below-1100:ml-0  below-500:mt-5   h-[4rem]">
-            <h1 className=" text-[2rem] uppercase below-1445:text-[1.5rem] below-1100:text-[1rem] below-500:text-[0.8rem]">
+            <h1 className=" text-[2rem] uppercase below-1445:text-[1.5rem] below-1100:text-[1rem] below-500:text-[0.8rem] text-green-300 italic">
               <TypingEffect
                 text={[
                   "I'm a Fullstack Software Engineer",
@@ -46,22 +46,30 @@ const MainComponent = () => {
 
             
             <div className=" mt-5  below-1100:text-[0.8rem] below-500:text-[0.5rem] flex items-center w-[70vw] flex-col below-1445:ml-[10rem]  below-1100:ml-0  self-center  ">
-              <p className=" mt-5 uppercase ">
+              <p className=" mt-5 uppercase text-green-100 text-sm below-500:text-xs">
                 I'm a developer who specializes in Full Stack web development and creating modern web
                 Apps and websites.
               </p>
               <div className=" mt-8 px-6 mb-7">
-            <h1 className=" uppercase"> You can Find all my projects and work on my github :</h1>
+            <h1 className=" uppercase text-green-100 text-sm below-500:text-xs"> You can Find all my projects and work on my github :</h1>
             <div className=" mt-4 flex items-center justify-center">
               <div className=" flex items-center  h-[3rem] mx-4 ">
                 <Link href="https://github.com/amar1795"  target="_blank">
                   {" "}
-                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem] below-500:mx-1 below-500:my-1 uppercase ">Github</button>
+                  <button className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-378:text-[0.4rem] below-378:px-2 below-378:py-1 mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[6rem] below-500:text-[0.3rem]"
+                    style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)', textDecoration: 'none' }}
+                  >
+                    Github
+                  </button>
                 </Link>
               </div>
               <Link href="https://github.com/amar1795/portfolio-website"  target="_blank">
                   {" "}
-                  <button className=" glow-button mx-2 my-2 text-[5rem] below-378:text-[0.4rem]  below-378:w-[8rem] below-500:mx-1 below-500:my-1 uppercase below-500:w-[9rem]">Source Code</button>
+                  <button className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-378:text-[0.4rem] below-378:px-2 below-378:py-1 mx-2 my-2 below-500:px-1 below-500:mx-0 below-500:w-[8rem] below-500:text-[0.3rem]"
+                    style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)', textDecoration: 'none' }}
+                  >
+                    Source Code
+                  </button>
                 </Link>
             </div>
            
