@@ -8,7 +8,7 @@ const page = () => {
     <div className="w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
       <h1 className="text-[6rem] uppercase below-1100:text-[4rem] below-700:text-[2.5rem] below-445:text-[1.5rem] below-500:text-[1.1rem] text-green-100 italic">Tech Stacks</h1>
     </div>
-    <div className=" sectionBorder w-[80vw]  ml-[12rem] below-445:mt-[2rem]  below-1100:ml-0 px-4   ">
+    <div className=" sectionBorder w-[78vw]  ml-[14rem] below-445:mt-[2rem]  below-1100:ml-0 px-4   ">
         <div className=' mt-[2rem] px-4  below-500:px-0' >
           <h1 className="text-[2rem] uppercase text-center below-500:text-[0.8rem] text-green-100 italic">Programming Languages</h1>
           <div className="flex flex-wrap mt-4">

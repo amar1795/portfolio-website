@@ -5,7 +5,7 @@ interface ProjectCardProps {
   title: string;
   date: string;
   description: string;
-  videoSrc: string;
+  videoSrc: string | undefined;
   liveLink?: string;
   sourceLink: string;
   detailsLink: string;

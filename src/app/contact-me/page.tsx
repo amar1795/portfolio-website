@@ -8,16 +8,16 @@ const page = () => {
         <div className="w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
           <h1 className="text-[6rem] uppercase below-1445:text-[4rem] below-835:mt-[2rem] below-695:text-[2rem] below-500:text-[1.1rem] below-500:mt-[5rem] text-green-100 italic">Contact Me</h1>
         </div>
-        <div className=" sectionBorder below-695:mt-[2rem]   w-[80vw]   ml-[12rem] below-1100:ml-0  px-4  ">
+        <div className=" sectionBorder below-695:mt-[2rem]   w-[78vw]  ml-[14rem] below-1100:ml-0  px-4  ">
           <div className=" mt-8 px-6  below-500:px-0   ">
-            <h1 className="uppercase text-green-100 text-sm below-500:text-[0.6rem] italic"> You can Contact me on this Email </h1>
-            <a href="mailto:your.jeetamar0038@gmail.com" className=" no-underline text-wrap text-green-100 text-sm below-500:text-[0.6rem] italic">jeetamar0038@gmail.com
+            <h1 className="uppercase text-green-100 text-xs below-500:text-[0.6rem] italic"> You can Contact me on this Email </h1>
+            <a href="mailto:your.jeetamar0038@gmail.com" className=" no-underline text-wrap text-green-100 text-xs below-500:text-[0.6rem] italic">jeetamar0038@gmail.com
             </a>
     
   
           </div>
           <div className=" mt-8 px-6 below-500:px-0">
-            <h1 className="uppercase text-green-100 text-sm below-500:text-[0.6rem] italic">alternatively ! you can also reach out to me on my socials</h1>
+            <h1 className="uppercase text-green-100 text-xs below-500:text-[0.6rem] italic">alternatively ! you can also reach out to me on my socials</h1>
             <div className=" mt-4 flex items-center   below-500:hidden">
               <div className=" flex items-center  h-[3rem] mx-4 below-500:mx-0 ">
                 <Link href="https://www.linkedin.com/in/amarjeet-singh-298329242/"  target="_blank">
@@ -63,7 +63,7 @@ const page = () => {
           </div>
 
           <div className=" mt-8 px-6 mb-7 uppercase below-500:px-0">
-            <h1 className="text-green-100 text-sm below-500:text-[0.6rem] italic"> You can Find all my projects and work on my github :</h1>
+            <h1 className="text-green-100 text-xs below-500:text-[0.6rem] italic"> You can Find all my projects and work on my github :</h1>
             <div className=" mt-4 flex items-center">
               <div className=" flex items-center  h-[3rem] mx-4 ">
                 <Link href="https://github.com/amar1795"  target="_blank">
