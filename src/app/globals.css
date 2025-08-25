@@ -230,3 +230,9 @@ a:hover {
   left: 20px;
   cursor: pointer;
 }
+
+
+::selection {
+  background-color: #2aa856; /* Tailwind's green-200 */
+  color: #166534; /* Tailwind's green-800 for contrast */
+}
