@@ -16,16 +16,16 @@ const EducationSection: React.FC<EducationSectionProps> = ({ education }) => {
           <div key={index} className="bg-black/50 border border-green-400/30 p-4 rounded-lg">
             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
               <div>
-                <h3 className="text-lg font-semibold text-green-300">{edu.institution}</h3>
-                <p className="text-green-200 italic text-sm">{edu.degree}</p>
+                <h3 className="text-sm font-semibold text-green-300">{edu.institution}</h3>
+                <p className="text-green-200 italic text-xs">{edu.degree}</p>
               </div>
               <div className="text-right mt-2 md:mt-0">
-                <p className="text-green-200 text-sm">{edu.location}</p>
-                <p className="text-green-400 font-medium text-sm">{edu.duration}</p>
+                <p className="text-green-200 text-xs">{edu.location}</p>
+                <p className="text-green-400 font-medium text-xs">{edu.duration}</p>
               </div>
             </div>
             {edu.details && (
-              <p className="text-green-100 mt-2 text-sm">{edu.details}</p>
+              <p className="text-green-100 mt-2 text-xs">{edu.details}</p>
             )}
           </div>
         ))}

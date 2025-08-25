@@ -17,13 +17,13 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
   return (
     <div className="mb-8">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-green-400 mb-4 uppercase tracking-wider">
+        <h1 className="text-2xl font-bold text-green-400 mb-4 uppercase tracking-wider">
           {personalInfo.name}
         </h1>
         <div className="flex flex-wrap justify-center gap-4 text-sm">
-          <span className="text-green-400">{personalInfo.phone}</span>
+          <span className="text-green-400 text-xs">{personalInfo.phone}</span>
           <span className="text-green-400">|</span>
-          <a href={`mailto:${personalInfo.email}`} className="text-green-400 hover:text-green-300 transition-colors">
+          <a href={`mailto:${personalInfo.email}`} className="text-green-400 hover:text-green-300 text-xs transition-colors">
             {personalInfo.email}
           </a>
           <span className="text-green-400">|</span>
@@ -31,7 +31,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             href={`https://${personalInfo.linkedin}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-green-400 hover:text-green-300 transition-colors"
+            className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
             {personalInfo.linkedin}
           </a>
@@ -40,7 +40,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             href={`https://${personalInfo.github}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-green-400 hover:text-green-300 transition-colors"
+            className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
             {personalInfo.github}
           </a>
@@ -49,7 +49,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             href={`https://${personalInfo.portfolio}`} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-green-400 hover:text-green-300 transition-colors"
+            className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
             {personalInfo.portfolio}
           </a>

@@ -26,7 +26,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experience }) => 
             </div>
             <ul className="space-y-2 mt-3">
               {exp.responsibilities.map((responsibility, respIndex) => (
-                <li key={respIndex} className="text-green-100 flex items-start text-sm">
+                <li key={respIndex} className="text-green-100 flex items-start text-xs">
                   <span className="text-green-400 mr-2 mt-1">•</span>
                   <span>{responsibility}</span>
                 </li>
