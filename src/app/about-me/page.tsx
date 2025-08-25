@@ -40,7 +40,7 @@ const page = () => {
           </p>
 
         <div className=" my-[4rem] below-500:my-5 ">
-        <p className=" uppercase below-500:text-[1.5rem] below-500:my-5 text-green-300 ">
+        <p className=" italic uppercase text-[1.5rem] below-500:text-xs below-500:my-5 text-green-300 ">
           The Rebellion: Building Empires from Scratch
 
           </p>
@@ -57,7 +57,7 @@ const page = () => {
           </p>
         </div>
         <div className=" my-[4rem] below-500:my-5">
-        <p className=" text-[1.5rem] uppercase below-500:text-sm text-green-300">
+        <p className=" italic text-[1.5rem] uppercase below-500:text-xs text-green-300">
        The Ascent: DSA Domination and Real-World Wins
 
           </p>
@@ -72,7 +72,7 @@ March rolled in, and I leveled up further: Immersed myself in High-Level Design 
 Opportunity knocked mid-grind: A client from a small company needed scanned PDFs converted to editable Excel sheets. I harnessed AI tools, built a custom Electron desktop app in just three days, achieving 92-95% accuracy that blew them away. They loved it – and so did I. For the first time, I'd created something that real people would use daily, solving a genuine business pain point. That rush? Pure validation. Around the same time, I secured a few internship offers, including a solid 6-month one. But the companies were lowballing on pay and had toxic cultures that screamed red flags – so I passed, refusing to settle. Now, I'm upskilling relentlessly, applying for roles in fullstack, frontend, backend, or React Native – wherever the next battle calls.          </p>
         </div>
         <div className=" my-[4rem] below-500:my-5">
-        <p className=" text-[1.5rem] uppercase below-500:text-sm text-green-300 ">
+        <p className=" text-[1.5rem] italic uppercase below-500:text-xs text-green-300 ">
         Epilogue: From Lockdown Zombie to Unstoppable Code Warrior
           </p>
           <p className=" leading-loose my-4 text-xs  below-500:text-xs text-green-100 italic">

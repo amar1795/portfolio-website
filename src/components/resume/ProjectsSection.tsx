@@ -15,7 +15,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
         {projects.map((project, index) => (
           <div key={index} className="bg-black/50 border border-green-400/30 p-4 rounded-lg">
             <h3 className="text-lg font-semibold text-green-300 mb-2">{project.name}</h3>
-            <p className="text-green-100 mb-3 text-xs">{project.description}</p>
+            <p className="text-green-100 mb-3 text-xs leading-loose">{project.description}</p>
             
             {project.technologies && (
               <div className="mb-3">

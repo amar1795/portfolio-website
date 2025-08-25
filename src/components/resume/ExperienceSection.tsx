@@ -28,7 +28,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experience }) => 
               {exp.responsibilities.map((responsibility, respIndex) => (
                 <li key={respIndex} className="text-green-100 flex items-start text-xs">
                   <span className="text-green-400 mr-2 mt-1">•</span>
-                  <span>{responsibility}</span>
+                  <span className=' leading-loose'>{responsibility}</span>
                 </li>
               ))}
             </ul>
