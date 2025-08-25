@@ -40,7 +40,7 @@ const page = () => {
           </p>
 
         <div className=" my-[4rem] below-500:my-5 ">
-        <p className=" text-sm uppercase below-500:text-[1.5rem] below-500:my-5 text-green-300 ">
+        <p className=" uppercase below-500:text-[1.5rem] below-500:my-5 text-green-300 ">
           The Rebellion: Building Empires from Scratch
 
           </p>

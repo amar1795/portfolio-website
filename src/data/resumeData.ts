@@ -48,9 +48,9 @@ export const resumeData: ResumeData = {
     name: "Amarjeet Singh",
     phone: "7032485971",
     email: "jeetamar003@gmail.com",
-    linkedin: "linkedin.com/in/amarjeet",
-    github: "github.com/amarjeet",
-    portfolio: "x.com/amarjeet"
+    linkedin: "www.linkedin.com/in/amarjeet-singh-298329242/",
+    github: "www.github.com/amar1795",
+    portfolio: "www.x.com/jeetamar496"
   },
   education: [
     {

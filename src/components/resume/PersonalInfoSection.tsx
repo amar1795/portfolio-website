@@ -1,3 +1,4 @@
+import { Linkedin } from 'lucide-react';
 import React from 'react';
 
 interface PersonalInfo {
@@ -33,7 +34,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             rel="noopener noreferrer"
             className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
-            {personalInfo.linkedin}
+            {"Linkedin"}
           </a>
           <span className="text-green-400">|</span>
           <a 
@@ -42,7 +43,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             rel="noopener noreferrer"
             className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
-            {personalInfo.github}
+            {"Github"}
           </a>
           <span className="text-green-400">|</span>
           <a 
@@ -51,7 +52,7 @@ const PersonalInfoSection: React.FC<PersonalInfoSectionProps> = ({ personalInfo 
             rel="noopener noreferrer"
             className="text-green-400 text-xs hover:text-green-300 transition-colors"
           >
-            {personalInfo.portfolio}
+            {"Twitter"}
           </a>
         </div>
       </div>
