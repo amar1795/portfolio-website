@@ -56,7 +56,7 @@ const SideLinks = () => {
       <div className=" hidden below-1100:block ">
         <div>
           <div className="menu-button" onClick={() => setIsOpen(!isOpen)}>
-            <SquareMenu size={40} />
+            <SquareMenu size={40} className="text-green-300 hover:text-green-400 transition-colors duration-300" style={{ filter: 'drop-shadow(0 0 8px rgba(34, 197, 94, 0.5))' }} />
           </div>
           <div className={`sidebar ${isOpen ? "open" : ""}`}>
             <button className="close-button" onClick={() => setIsOpen(false)}>

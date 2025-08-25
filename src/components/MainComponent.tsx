@@ -15,29 +15,32 @@ const MainComponent = () => {
           <div className="terminals mt-2 below-1100:mt-5 below-400:mt-[5rem]">
             <div className="mt-11">
               <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-500:text-[1rem] below-445:px-5 text-green-100 italic">Welcome to my</h1>
-              <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-500:text-[1rem] below-445:px-5 text-green-100 italic">Website</h1>
+              <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-500:text-[1rem] below-445:px-5 text-green-100 italic">Playground</h1>
             </div>
-            <div className="flex justify-center below-500:mt-5 h-[4rem]">
+            <div className="flex justify-center pt-6 below-500:mt-5 h-[4rem]">
               <h1 className="text-[1.5rem] uppercase below-1445:text-[1.5rem] below-1100:text-[1rem] below-500:text-[0.8rem] text-green-300 italic">
                 <TypingEffect
                   text={[
-                    "I'm a Fullstack Software Engineer",
-                    "I create anything and everything",
-                    "Explore My Work",
+                     "I break things just to rebuild them better",
+                      "Code is my canvas, products are my art",
+                      "Scroll down ... the good stuff’s waiting",
                   ]}
-                  speed={40}
+                  speed={30}
                   eraseSpeed={20}
                 />
               </h1>
             </div>
             <div className="flex items-center flex-col">
               <div className="mt-5 flex items-center w-full flex-col self-center">
-                <p className="mt-5 uppercase text-green-100 text-sm below-500:text-xs">
-                  I'm a developer who specializes in Full Stack web development and creating modern web
-                  Apps and websites.
+                <p className="mt-5 uppercase text-green-100 text-xs below-500:text-xs leading-loose">
+                 I don’t just write code ... I design experiences. From full stack apps 
+                  to bold experiments, I build with a mix of precision and chaos. 
+                  Clean, fast, and a little rebellious.
                 </p>
                 <div className="mt-8 px-6 mb-7">
-                  <h1 className="uppercase text-green-100 text-sm below-500:text-xs"> You can Find all my projects and work on my github :</h1>
+                  <h1 className="uppercase text-green-100 text-xs below-500:text-xs italic leading-loose">
+                    Curious? The rabbit hole goes deeper — all my experiments and side projects live on github<span className="inline-block transform -rotate-45 scale-75">→</span>
+                  </h1>
                   <div className="mt-4 flex items-center justify-center">
                     <div className="flex items-center h-[3rem] mx-4">
                       <Link href="https://github.com/amar1795" target="_blank">
