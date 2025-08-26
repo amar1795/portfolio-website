@@ -61,7 +61,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
               <div className="flex flex-wrap gap-2 mt-3">
                 {project.link.split(' | ').map((link, linkIndex) => {
                   const isGithub = link.includes('github.com');
-                  console.log("this is the link", link);
+                  // console.log("this is the link", link);
                   const isSourceCode = isGithub || linkIndex === 0;
                   const buttonText = isGithub ? 'Source Code' : 'Live Link';
                   

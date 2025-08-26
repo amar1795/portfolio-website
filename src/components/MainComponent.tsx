@@ -6,7 +6,7 @@ import TypingEffect from "react-typing-effect";
 
 const MainComponent = () => {
   const pathname = usePathname()
-  console.log("this is the pathname",pathname)
+  // console.log("this is the pathname",pathname)
   const isHomePage = pathname === "/";
   return (
     <div className="crt-wrapper h-screen text-center flex overflow-auto below-1100:items-center below-1100:justify-center">

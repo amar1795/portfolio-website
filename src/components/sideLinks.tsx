@@ -6,7 +6,7 @@ import { SquareMenu } from "lucide-react";
 
 const SideLinks = () => {
   const pathname = usePathname();
-  console.log("this is the pathname", pathname);
+  // console.log("this is the pathname", pathname);
   const isHomePage = pathname === "/";
 
   const [isOpen, setIsOpen] = useState(false);

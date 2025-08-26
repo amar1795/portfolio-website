@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div  className='h-screen    flex flex-col'>
+    <div  className='h-screen   flex flex-col'>
 
     <div className="terminals mt-12 mb-8 below-700:mt-16 below-635:mt-[7rem]   w-full flex flex-col items-center overflow-auto hide-scrollbar">
     <div className="w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
