@@ -38,7 +38,7 @@ const page = async () => {
         <div className="mt-8 mb-32 pb-20 w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
           <button 
             onClick={handleDownload}
-            className="border-2 border-green-400/80 text-green-300 px-6 py-3 text-sm uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-378:text-[0.4rem] below-378:px-3 below-378:py-2"
+            className="border-2 border-green-400/80 text-green-300 px-6 py-3 text-sm uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-378:text-[0.4rem] below-500:px-3 below-500:py-2 below-500:text-[0.5rem]"
             style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)', textDecoration: 'none' }}
           >
             Download Resume

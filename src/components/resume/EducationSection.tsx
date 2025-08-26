@@ -8,7 +8,7 @@ interface EducationSectionProps {
 const EducationSection: React.FC<EducationSectionProps> = ({ education }) => {
   return (
     <div className="mb-8">
-      <h2 className="text-2xl font-bold text-green-400 mb-6 uppercase tracking-wider border-b-2 border-green-400 pb-2">
+      <h2 className="text-2xl font-bold text-green-400 mb-6 uppercase tracking-wider border-b-2 border-green-400 pb-2 below-500:text-sm">
         Education
       </h2>
       <div className="space-y-6">
@@ -16,12 +16,12 @@ const EducationSection: React.FC<EducationSectionProps> = ({ education }) => {
           <div key={index} className="bg-black/50 border border-green-400/30 p-4 rounded-lg">
             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
               <div>
-                <h3 className="text-sm font-semibold text-green-300">{edu.institution}</h3>
-                <p className="text-green-200 italic text-xs">{edu.degree}</p>
+                <h3 className="text-sm font-semibold text-green-300 below-500:text-[0.6rem]">{edu.institution}</h3>
+                <p className="text-green-200 italic text-xs below-500:text-[0.6rem]">{edu.degree}</p>
               </div>
               <div className="text-right mt-2 md:mt-0">
-                <p className="text-green-200 text-xs">{edu.location}</p>
-                <p className="text-green-400 font-medium text-xs">{edu.duration}</p>
+                <p className="text-green-200 text-xs below-500:text-[0.6rem]">{edu.location}</p>
+                <p className="text-green-400 font-medium text-xs below-500:text-[0.6rem]">{edu.duration}</p>
               </div>
             </div>
             {edu.details && (
