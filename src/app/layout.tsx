@@ -46,7 +46,7 @@ export default function RootLayout({
         <div className="absolute top-32 left-12 h-[10rem] below-1100:top-6 below-900:top-1 below-635:top-12 below-500:top-2  z-50 ">
           
         <div className="">
-        <SideLinks   />
+        <SideLinks/>
         </div>
         </div>
         {children}
