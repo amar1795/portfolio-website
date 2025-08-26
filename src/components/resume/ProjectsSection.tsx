@@ -33,13 +33,13 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
                 </div>
               </div>
             )}
-            
-            {project.link && (
+            <div className=' flex gap-6'> 
+             {project.sourceCode && (
               <div className="flex flex-wrap gap-2 mt-3">
-                {project.link.split(' | ').map((link, linkIndex) => {
+                {project.sourceCode.split(' | ').map((link, linkIndex) => {
                   const isGithub = link.includes('github.com');
                   const isSourceCode = isGithub || linkIndex === 0;
-                  const buttonText = isSourceCode ? 'Source Code' : 'Live Link';
+                  const buttonText = isSourceCode && 'Source Code';
                   
                   return (
                     <a
@@ -56,6 +56,31 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
                 })}
               </div>
             )}
+
+            {project.link && (
+              <div className="flex flex-wrap gap-2 mt-3">
+                {project.link.split(' | ').map((link, linkIndex) => {
+                  const isGithub = link.includes('github.com');
+                  console.log("this is the link", link);
+                  const isSourceCode = isGithub || linkIndex === 0;
+                  const buttonText = isGithub ? 'Source Code' : 'Live Link';
+                  
+                  return (
+                    <a
+                      key={linkIndex}
+                      href={link.trim()}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 inline-block no-underline below-500:text-[0.4rem]"
+                      style={{ boxShadow: '0 0 10px rgba(34, 197, 94, 0.5)', textDecoration: 'none' }}
+                    >
+                      {buttonText}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
+            </div>
           </div>
         ))}
       </div>

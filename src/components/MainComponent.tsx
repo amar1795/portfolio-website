@@ -15,7 +15,7 @@ const MainComponent = () => {
           <div className="terminals mt-2 below-1100:mt-5 below-400:mt-[5rem] below-500:mb-[10rem]">
             <div className="mt-11">
               <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-730:text-[1rem]   below-445:px-5 text-green-100 italic">Welcome to my</h1>
-              <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-730:text-[1rem]  below-445:px-5 text-green-100 italic">Playground</h1>
+              <h1 className="text-[5rem] uppercase below-1445:text-[4rem] below-1100:text-[2rem] below-730:text-[1rem]  below-445:px-5 text-green-100 italic below-500:text-[1.5rem]">Playground</h1>
             </div>
             <div className="flex justify-center pt-6 below-730:mt-5 h-[4rem]">
               <h1 className="text-[1.5rem] uppercase below-1445:text-[1.5rem] below-1100:text-[1rem] below-730:text-[0.8rem] below-500:w-[70vw] below-500:text-[0.5rem] text-green-300 italic">
