@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <p className="mt-2 below-426:text-[0.7rem] below-500:mt-[2rem] uppercase below-500:text-[0.5rem] text-green-100">
             {date}
           </p>
-          <p className="mt-2 below-566:text-[0.8rem] below-500:mt-[2rem] uppercase below-500:text-[0.4rem] text-left text-green-100">
+          <p className="mt-2 below-566:text-[0.8rem] text-center below-500:mt-[2rem] uppercase below-500:text-[0.4rem]  text-green-100">
             {description}
           </p>
         </div>
@@ -99,13 +99,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
 
         {/* Mobile Buttons */}
-        <div className="hidden below-500:flex justify-between h-[4rem] below-500:h-[12rem] min-h-4">
-          <div className="flex justify-between py-3 px-2">
-            <div className="flex items-center mx-4">
+  <div className="hidden below-500:flex min-h-[8rem] h-full w-full">
+          <div className="py-3 px-2 flex flex-col items-center justify-center h-full w-full">
+            <div className=" mx-4  my-1">
               {liveLink && (
               <Link href={liveLink} target="_blank">
                 <button
-                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30"
+                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg  hover:shadow-green-400/50 shadow-md shadow-green-400/30  below-500:text-[0.4rem] "
                   style={{ boxShadow: "0 0 10px rgba(34, 197, 94, 0.5)", textDecoration: "none" }}
                 >
                   Live Link
@@ -114,10 +114,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               )}
             </div>
 
-            <div className="flex items-center">
+            <div className="my-1">
               <Link href={sourceLink} target="_blank">
                 <button
-                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30"
+                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-500:text-[0.4rem]"
                   style={{ boxShadow: "0 0 10px rgba(34, 197, 94, 0.5)", textDecoration: "none" }}
                 >
                   Source Code
@@ -125,10 +125,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               </Link>
             </div>
 
-            <div className="flex items-center mb-6">
+            <div className="my-1">
               <Link href={detailsLink}>
                 <button
-                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30"
+                  className="border-2 border-green-400/80 text-green-300 px-3 py-1 text-xs uppercase rounded transition-all duration-300 hover:bg-green-400 hover:text-black hover:border-green-400 hover:shadow-lg hover:shadow-green-400/50 shadow-md shadow-green-400/30 below-500:text-[0.4rem]"
                   style={{ boxShadow: "0 0 10px rgba(34, 197, 94, 0.5)", textDecoration: "none" }}
                 >
                   View Project Details
