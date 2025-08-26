@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   detailsLink,
 }) => {
   return (
-    <div className="projectCard flex below-1445:flex-col below-1445:items-center min-h-[20rem] my-4 mb-10">
+    <div className="projectCard flex below-1445:flex-col below-1445:items-center min-h-[20rem] my-4 mb-10 ">
       {/* Video Section */}
       <div className="leftCard below-500:hidden w-[25rem] flex items-center justify-center below-550:hidden">
         <video width="500" height="250" autoPlay loop muted playsInline className="rounded">

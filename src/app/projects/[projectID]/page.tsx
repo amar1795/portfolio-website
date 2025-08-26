@@ -22,7 +22,7 @@ const page = ({ params }: { params: { projectID: string } }) => {
   return (
     <div className=" h-screen   overflow-auto   flex    ">
       <div className=" mt-12  w-full flex flex-col items-center  below-500:mt-[5rem] ">
-        <h1 className="text-[6rem] uppercase below-1025:text-[4rem] below-635:text-[2rem]  below-500:mt-7 below-500:text-[1.1rem] text-green-100 italic">
+        <h1 className="text-[6rem] uppercase below-1025:text-[4rem] below-635:text-[2rem]  below-500:mt-7 below-500:text-[1.5rem] text-green-100 italic">
           Projects
         </h1>
 

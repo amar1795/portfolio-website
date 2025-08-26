@@ -24,10 +24,10 @@ const page = async () => {
     <div className="h-screen overflow-auto flex">
       <div className="mt-12 w-full flex flex-col items-center below-650:mt-[8rem] below-500:mt-[6rem] below-378:mt-[8rem] ">
         <div className="w-[90vw] max-w-6xl ml-[12rem] below-1100:ml-0 flex justify-center">
-          <h1 className="text-[6rem] uppercase below-650:text-[4rem] below-500:text-[2rem] below-378:text-[1.1rem] text-green-100 italic">Resume</h1>
+          <h1 className="text-[6rem] uppercase below-650:text-[4rem] below-500:text-[1.5rem]  text-green-100 italic">Resume</h1>
         </div>
 
-        <div className="sectionBorder w-[90vw] max-w-6xl ml-[12rem] below-500:mt-[2rem] below-1100:ml-0 px-6 py-8">
+        <div className="sectionBorder w-[90vw] max-w-6xl ml-[12rem] below-500:mt-[2rem] below-1100:ml-0 px-6 py-8 below-500:px-3 ">
           <PersonalInfoSection personalInfo={resumeData.personalInfo} />
           <EducationSection education={resumeData.education} />
           <ExperienceSection experience={resumeData.experience} />
