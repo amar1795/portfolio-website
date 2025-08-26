@@ -5,10 +5,10 @@ import { resumeData } from "@/data/resumeData";
 const page = () => {
 
   return (
-    <div className="h-screen    flex ">
-      <div className=" mt-12 below-500:mt-[5rem]  w-full flex flex-col items-center overflow-auto  ">
+    <div className="h-screen    flex  ">
+      <div className=" mt-12 below-500:mt-[5rem]   w-full flex flex-col items-center overflow-auto  ">
         <h1 className="text-[6rem] below-500:mt-7 uppercase  below-1025:text-[4rem] below-635:text-[2rem] below-500:text-[1.2rem] text-green-100 italic">Projects</h1>
-        <div className="   w-[80vw] ml-[12rem] below-1100:ml-0 pl-8 ">
+        <div className="   w-[80vw]  below-1100:ml-0  below-500:w-[85vw] ">
           {/* projects container */}
           {/* https://res.cloudinary.com/dfveswqdm/video/upload/v1722445942/Untitled_video_-_Made_with_Clipchamp_2_a9vec4.mp4 */}
           
