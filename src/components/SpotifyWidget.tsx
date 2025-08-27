@@ -15,9 +15,9 @@ export default function SpotifyWidget() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let interval: NodeJS.Timeout;
     async function fetchSongs() {
       setLoading(true);
-      // Fetch currently playing
       const res = await fetch('/api/spotify/currently-playing');
       const data = await res.json();
       if (data && data.item) {
@@ -27,6 +27,7 @@ export default function SpotifyWidget() {
           albumArt: data.item.album.images[0]?.url,
           url: data.item.external_urls.spotify,
         });
+        setLastSong(null);
         setLoading(false);
         return;
       }
@@ -41,10 +42,13 @@ export default function SpotifyWidget() {
           albumArt: track.album.images[0]?.url,
           url: track.external_urls.spotify,
         });
+        setSong(null);
       }
       setLoading(false);
     }
     fetchSongs();
+    interval = setInterval(fetchSongs, 10000); // Poll every 10 seconds
+    return () => clearInterval(interval);
   }, []);
 
   return (

@@ -63,8 +63,13 @@ const MainComponent = () => {
                 </div>
               </div>
             </div>
-           <div className=" fixed bottom-4 right-4">
-             <SpotifyWidget />
+           <div className="">
+             {/* <SpotifyWidget /> */}
+             <p className="text-green-100 italic text-[0.6rem]  below-500:text-[0.4rem] ">
+               Built from scratch  by <Link href="https://x.com/jeetamar496" target="_blank" className="underline hover:text-green-200">Me</Link>,
+               <br />
+               stress-tested by my WiFi.
+             </p>
            </div>
           </div>
         </div>
