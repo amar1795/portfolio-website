@@ -3,13 +3,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import TypingEffect from "react-typing-effect";
+import SpotifyWidget from "./SpotifyWidget";
 
 const MainComponent = () => {
   const pathname = usePathname()
   // console.log("this is the pathname",pathname)
   const isHomePage = pathname === "/";
   return (
-    <div className="crt-wrapper h-screen text-center flex overflow-auto below-1100:items-center below-1100:justify-center">
+    <div className="crt-wrapper  text-center flex overflow-auto below-1100:items-center below-1100:justify-center">
       <div className="w-full flex justify-center">
         <div className="ml-[8rem] below-1100:ml-0 w-full max-w-6xl px-4">
           <div className="terminals mt-2 below-1100:mt-5 below-400:mt-[5rem] below-500:mb-[10rem]">
@@ -62,6 +63,9 @@ const MainComponent = () => {
                 </div>
               </div>
             </div>
+           <div className=" fixed bottom-4 right-4">
+             <SpotifyWidget />
+           </div>
           </div>
         </div>
       </div>
